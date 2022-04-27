@@ -3,6 +3,7 @@
     <router-link to="/" class="active item">
       Image Storage
     </router-link>
+    
     <div class="right menu">
       <div v-if="isLoggedIn" class="horizontal">
         <router-link to="/" class="item">Galleries</router-link>
